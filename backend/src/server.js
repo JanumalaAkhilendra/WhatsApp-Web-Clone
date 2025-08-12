@@ -17,9 +17,10 @@ async function start() {
   });
   initSocket(io);
 
-  server.listen(PORT, () => {
-    console.log(`Server listening on ${PORT}`);
+  server.listen(PORT, '0.0.0.0', () => {
+    console.log(`✅ Server listening on ${PORT}`);
   });
+  
 }
 
 start().catch(err => {

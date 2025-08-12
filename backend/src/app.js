@@ -40,7 +40,8 @@ app.use(cors({
       'http://127.0.0.1:3000', // Alternative localhost
       'https://whatsapp-web-12.up.railway.app', // Railway backend
       'https://whats-app-web-clone-hazel.vercel.app', // Vercel frontend
-      'https://whats-app-web-clone-hazel.vercel.app/' // Vercel frontend with trailing slash
+      'https://whats-app-web-clone-hazel.vercel.app/', // Vercel frontend with trailing slash
+      'https://whats-app-web-clone-hazel.vercel.app/api', // Vercel frontend with api
     ];
     
     if (allowedOrigins.indexOf(origin) !== -1) {
