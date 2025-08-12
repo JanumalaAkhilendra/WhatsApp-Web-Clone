@@ -17,7 +17,7 @@ export default function App() {
 
   useEffect(() => {
     load();
-    const base = import.meta.env.VITE_API_BASE || 'http://localhost:4000';
+    const base = import.meta.env.VITE_API_BASE || 'https://whatsapp-web-12.up.railway.app';
     console.log('🔌 Connecting to backend:', base);
     const s = io(base);
     setSocket(s);
@@ -75,7 +75,7 @@ export default function App() {
   async function simulateStatusProgression() {
     try {
       // Try the test endpoint first
-      const response = await fetch('http://localhost:4000/test/status-progression', {
+      const response = await fetch('https://whatsapp-web-12.up.railway.app/test/status-progression', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' }
       });

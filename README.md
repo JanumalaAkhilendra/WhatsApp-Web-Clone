@@ -2,6 +2,12 @@
 
 A full-featured WhatsApp Web clone built with Node.js, React, and MongoDB. This application simulates real-time WhatsApp conversations using webhook data and provides a responsive, mobile-friendly interface that closely resembles WhatsApp Web.
 
+## 🌐 **Live Demo**
+
+- **Frontend**: https://whats-app-web-clone-hazel.vercel.app
+- **Backend API**: https://whatsapp-web-12.up.railway.app
+- **API Health Check**: https://whatsapp-web-12.up.railway.app/test
+
 ## ✨ Features
 
 - **Real-time Messaging**: WebSocket-powered real-time message updates

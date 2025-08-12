@@ -1,6 +1,20 @@
 # 🚀 Deployment Guide
 
-This guide will walk you through deploying your WhatsApp Web clone to various platforms.
+This guide covers deploying the WhatsApp Web Clone to various platforms.
+
+## 🌐 **Current Deployment**
+
+- **Frontend (Vercel)**: https://whats-app-web-clone-hazel.vercel.app
+- **Backend (Railway)**: https://whatsapp-web-12.up.railway.app
+- **API Health Check**: https://whatsapp-web-12.up.railway.app/test
+
+## 📋 **Prerequisites**
+
+- Node.js 18+
+- MongoDB Atlas account
+- GitHub repository
+- Vercel account (for frontend)
+- Railway account (for backend)
 
 ## 🎯 Vercel Deployment (Recommended)
 
