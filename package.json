@@ -1,0 +1,36 @@
+{
+  "name": "whatsapp-web-clone",
+  "version": "1.0.0",
+  "description": "A WhatsApp Web clone with real-time messaging and webhook support",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "npm run build:frontend",
+    "build:frontend": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "load-payloads": "cd backend && npm run load-payloads",
+    "test-db": "cd backend && node scripts/test_db.js",
+    "reset-db": "cd backend && npm run load-payloads"
+  },
+  "keywords": [
+    "whatsapp",
+    "clone",
+    "real-time",
+    "chat",
+    "webhook",
+    "mongodb",
+    "react",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+} 
